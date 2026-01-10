@@ -31,7 +31,6 @@ INC:=main.h
 BIN:=main
 
 VPATH=${SRC_DIR}:${INC_DIR}
-
 .DEFAULT_GOAL : help
 
 # Note that using `echo -e` is not POSIX compliant
