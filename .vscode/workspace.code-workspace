@@ -1,0 +1,32 @@
+{
+    "extensions": {
+        "recommendations": [
+            "ms-vscode.cpptools-extension-pack",
+        ]
+    },
+
+    "folders": [
+        {
+            "name": "This Workspace",
+            "path": "../",
+        }
+    ],
+
+    "settings": {
+        "[cpp]": {
+            "editor.wordBasedSuggestions": "off",
+            "editor.semanticHighlighting.enabled": true,
+            "editor.stickyScroll.defaultModel": "foldingProviderModel",
+            "editor.suggest.insertMode": "replace",
+            "editor.rulers": [72, 80]
+        },
+        "[c]": {
+            "editor.wordBasedSuggestions": "off",
+            "editor.semanticHighlighting.enabled": true,
+            "editor.stickyScroll.defaultModel": "foldingProviderModel",
+            "editor.suggest.insertMode": "replace",
+            "editor.rulers": [72, 80]
+        },
+        "editor.trimAutoWhitespace": true,
+    }
+}

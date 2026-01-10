@@ -1,0 +1,5 @@
+# Ignore artifcats produced by the makefile
+#
+*.s
+*.o
+build/*
