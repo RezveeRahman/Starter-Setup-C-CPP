@@ -58,3 +58,8 @@ that can help:
 >
 > There is an example like this in the makefile.
 >
+> Also you can do:
+>```sh
+> $ make build CLANG=true
+>```
+>
